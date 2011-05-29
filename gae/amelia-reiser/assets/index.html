@@ -19,8 +19,21 @@
         .title {
             text-align: center;
             margin-top: 30px;
+            margin-bottom: 20px;
             font-size: 50px;
             color: #4BACC6;
+        }
+
+        .montage {
+            margin: 0 auto;
+            width: 815px;
+            height: 259px;
+            position: relative;
+        }
+
+        .nav {
+            text-align: center;
+            margin-top: 60px;
         }
 
         .navLink {
@@ -32,8 +45,9 @@
         .navSpacer {
             color: #F79646;
             font-size: 30px;
-            padding: 0 30px;
+            padding: 0 40px;
         }
+
     </style>
 </head>
 <body>
@@ -41,7 +55,15 @@
     Amelia Reiser
 </h1>
 
-<div style="text-align: center;">
+<div class="montage">
+    <div style="position: absolute; top: 0; left: 0;"><img src="images/a.jpg" alt="Amelia Pose #1"/></div>
+    <div style="position: absolute; top: 0; left: 115px;"><img src="images/b.jpg" alt="Amelia Pose #2"/></div>
+    <div style="position: absolute; top: 0; left: 256px;"><img src="images/c.jpg" alt="Amelia Pose #3"/></div>
+    <div style="position: absolute; top: 0; left: 516px;"><img src="images/d.jpg" alt="Amelia Pose #4"/></div>
+    <div style="position: absolute; top: 0; left: 715px;"><img src="images/e.jpg" alt="Amelia Pose #5"/></div>
+</div>
+
+<div class="nav">
     <a href="/biography" class="navLink">Biography</a>
     <span class="navSpacer">|</span>
     <a href="/resume" class="navLink">Resume</a>
