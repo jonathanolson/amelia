@@ -1,0 +1,47 @@
+body {
+    font-family: Georgia, Serif;
+    line-height: 130%;
+}
+
+#content {
+    width: 700px;
+    margin: 0 auto;
+}
+
+.ar {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+.arlink {
+    font-size: 50px;
+    color: #4BACC6;
+    text-decoration: none;
+}
+
+.nav {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.navLink {
+    color: #4BACC6;
+    text-decoration: none;
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+.navSpacer {
+    color: #F79646;
+    font-size: 20px;
+    padding: 0 30px;
+    vertical-align: middle;
+}
+
+.pagetitle {
+    color: #F79646;
+    font-size: 32px;
+    display: inline;
+    vertical-align: middle;
+}

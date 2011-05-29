@@ -8,5 +8,13 @@ handlers:
   static_files: assets/index.html
   upload: assets/index.html
 
+- url: /biography
+  static_files: assets/biography.html
+  upload: assets/biography.html
+
+- url: /resume
+  static_files: assets/resume.html
+  upload: assets/resume.html
+
 - url: /
   static_dir: assets
