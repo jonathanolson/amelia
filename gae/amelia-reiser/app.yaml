@@ -16,5 +16,13 @@ handlers:
   static_files: assets/resume.html
   upload: assets/resume.html
 
+- url: /gallery
+  static_files: assets/gallery.html
+  upload: assets/gallery.html
+
+- url: /contact
+  static_files: assets/contact.html
+  upload: assets/contact.html
+
 - url: /
   static_dir: assets
