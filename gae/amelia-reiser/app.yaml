@@ -8,9 +8,9 @@ handlers:
   static_files: assets/index.html
   upload: assets/index.html
 
-- url: /biography
-  static_files: assets/biography.html
-  upload: assets/biography.html
+- url: /about
+  static_files: assets/about.html
+  upload: assets/about.html
 
 - url: /resume
   static_files: assets/resume.html
